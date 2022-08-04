@@ -281,6 +281,27 @@ return [
                     'total' => 'News total|News total',
                 ],
             ],
+            'publications' => [
+                'all' => 'All Publications List',
+                'active' => 'Invited Publications List',
+                'create' => 'Create Publications List',
+                'deactivated' => 'Deactivated Publications List',
+                'deleted' => 'Deleted Publications List',
+                'edit' => 'Edit Publications List',
+                'management' => 'Publications List Management',
+
+                'table' => [
+                    'created' => 'Created',
+                    'id' => 'ID',
+                    'last_updated' => 'Last Updated',
+                    'year' => 'Year',  
+                    'link' => 'Link',
+                    'description' => 'Description',
+                    'status' => 'Status',
+                    'createdat' => 'Created At',
+                    'total' => 'News total|News total',
+                ],
+            ],
 
             'email-templates' => [
                 'all' => 'All Email Templates',

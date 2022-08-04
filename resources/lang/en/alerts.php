@@ -77,6 +77,13 @@ return [
             'deleted' => 'The news was successfully deleted.',
         ],
 
+        'publications' => [
+            // 'already_exists' => 'That Faq already exists. Please choose a different name.',
+            'create_error' => 'There was a problem creating this Publications. Please try again.',
+            'delete_error' => 'There was a problem deleting this publications. Please try again.',
+            'update_error' => 'There was a problem updating this publications. Please try again.',
+        ],
+
 
         'email-templates' => [
             'created' => 'The email template was successfully created.',

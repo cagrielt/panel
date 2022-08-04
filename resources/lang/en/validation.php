@@ -208,6 +208,13 @@ return [
                     'invited_talks' => 'Description',
                     'status' => 'Status',
                 ],
+                'publications' => [
+                    'year' => 'Year',
+                    'link' => 'Link',
+                    'description' => 'Description',
+                    'status' => 'Status',
+                ],
+
 
                 'email-templates' => [
                     'title' => 'Email Template Title',

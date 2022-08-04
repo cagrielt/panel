@@ -968,6 +968,48 @@ var Backend = {}; // common variable used in all the files of the backend
             }
         },
 
+        Publications: {
+            selectors: {
+                publications_table: $('#publications-table'),
+            },
+            init: function (page, locale) {
+
+                if (page == "edit") {
+                    Backend.tinyMCE.init(locale);
+                } else {
+
+                    Backend.Utils.setCSRF();
+
+                    this.selectors.publications_table.dataTable({
+
+                        processing: false,
+                        serverSide: true,
+                        ajax: {
+                            url: this.selectors.publications_table.data('ajax_url'),
+                            type: 'post',
+                            data: { status: 1, trashed: false }
+                        },
+                        columns: [
+
+                            { data: 'year', name: 'year' },
+                            { data: 'link', name: 'link' },
+                            { data: 'description', name: 'description' },
+                            { data: 'status', name: 'status' },
+                            { data: 'created_at', name: 'created_at' },
+                            { data: 'actions', name: 'actions', searchable: false, sortable: false }
+
+                        ],
+                        order: [[0, "asc"]],
+                        searchDelay: 500,
+                        "createdRow": function (row, data, dataIndex) {
+                            Backend.Utils.dtAnchorToForm(row);
+                        }
+                    });
+                }
+            }
+        },
+
+
         /**
          * Profile
          *

@@ -96,6 +96,18 @@
 
                 <li class="divider"></li>
 
+
+                <li class="nav-item">
+                    <a class="nav-link {{
+                        active_class(Route::is('admin/publications'))
+                    }}" href="{{ route('admin.publications.index') }}">
+                        <i class="nav-icon fas fa-question-circle"></i>
+                        @lang('menus.backend.sidebar.publications')
+                    </a>
+                </li>
+
+                <li class="divider"></li>
+
                 <li class="nav-item">
                     <a class="nav-link {{
                         active_class(Route::is('admin/email-templates'))

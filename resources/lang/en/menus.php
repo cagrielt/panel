@@ -111,6 +111,16 @@ return [
                 'main' => 'Blog News',
                 'view' => 'View News',
             ],
+            'publications' => [
+                'all' => 'All Publications List',
+                'active' => 'Active Publications List',
+                'create' => 'Create Publications List',
+                'deactivated' => 'Deactivated Publications List',
+                'deleted' => 'Deleted Publications List',
+                'edit' => 'Edit Publications List',
+                'main' => 'Blog Publications List',
+                'view' => 'View Publications List',
+            ],
 
             'email-templates' => [
                 'all' => 'All Email Templates',
@@ -138,6 +148,7 @@ return [
             'blogs' => 'Blog Management',
             'news' => 'Invited Talks',
             'pages' => 'Pages Management',
+            'publications' => 'Publications Full List',
             'faqs' => 'Faq Management',
             'email-templates' => 'Email Templates',
         ],
