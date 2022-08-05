@@ -34,6 +34,14 @@ Route::group(['middleware' => ['auth', 'password_expires']], function () {
 
     Route::get('/publications', 'PublicationsController@publications');
     Route::get('/intivted-talks', 'InvitedTalksController@invitedtalks');
+    Route::get('/biography', 'BioController@biography');
+    Route::get('/gallery', 'GalleryController@gallery');
+    Route::get('/news', 'NewsController@news');
+    Route::get('/team', 'TeamController@team');
 
+
+    
+
+ 
 
 });

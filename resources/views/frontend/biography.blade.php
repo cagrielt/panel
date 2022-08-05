@@ -1,59 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <title>Devrim Gözüaçık</title>
-</head>
-<section>
-    <div class="row justify-content-center pt-4  w-100 mobile-img">
-      <a href="/"><img src="images/logo.png" width="184" height="119"></a>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light  py-3">
-      <a href="/" class="navbar-brand font-weight-bold d-block d-lg-none"><img src="images/logo.png" width="184" height="119"></a>
-      <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      <div id="navbarContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-linkk" href="biography.html">Biography</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkk" href="publications.html">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkk" href="news.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkk" href="intived.html">Invited Talks</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkk" href="team.html">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkk" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-linkk" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
+@include('frontend.layouts.header')
+
 <div class="container">
   <div class="row">
     <div class="col-md-12 pt-5">
       <h1 class="title">DR. DEVRİM GÖZÜAÇIK
         <br><span style="color:#47A5DC";>MD, PHD</span></h1>
-        <p class="mt-4">Get in contact with Devrim Gözüaçık <span style="color:black;text-decoration: underline;font-weight: 700;"><a href="contact.html">now</a><img src="images/up-link.png" class="px-3"></span></p>
+        <p class="mt-4">Get in contact with Devrim Gözüaçık <span style="color:black;text-decoration: underline;font-weight: 700;"><a href="contact.html">now</a><img src="{{url('/img/frontend/user/up-link.png')}}" class="px-3"></span></p>
     </div>
   </div>
 </div>
@@ -61,19 +13,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-xs-12 mt-5 pt-5">
-        <img src="images/devrim-gozuacik.png" width="350" height="100%">
+        <img src="{{url('/img/frontend/user/devrim-gozuacik.png')}}" width="350" height="100%">
       </div>
       <div class="col-md-3 col-xs-12 mt-md-5 pt-5">
        <h5 class="title-gray">Research Team<br>Leader</h5>
         <p class="about-p">
-          SUNUM Nanotechnology Research and Application Center.<img src="images/up-link.png">
+          SUNUM Nanotechnology Research and Application Center.<img src="{{url('/img/frontend/user/up-link.png')}}">
         </p>
       </div>
       <div class="col-md-3 col-xs-12 mt-md-5 pt-5">
         <h5 class="title-gray">International Council<br>
         Member and Affiliate Member</h5>
         <p class="about-p">
-          Autophagy, Inflammation, and Metabolism (AIM) Center of Biomedical Research Excellence, University of New Mexico Health Sciences Center, USA.<img src="images/up-link.png">
+          Autophagy, Inflammation, and Metabolism (AIM) Center of Biomedical Research Excellence, University of New Mexico Health Sciences Center, USA.<img src="{{url('/img/frontend/user/up-link.png')}}">
         </p>
       </div>
     </div>
@@ -82,14 +34,14 @@
        <h5 class="title-gray">Board of Directors
         <br>Member</h5>
         <p class="about-p">
-          International Cell Death Society, USA.<img src="images/up-link.png">
+          International Cell Death Society, USA.<img src="{{url('/img/frontend/user/up-link.png')}}">
         </p>
       </div>
       <div class="col-md-3 col-xs-12 mb-md-5 mt-5 mt-md-0">
         <h5 class="title-gray">Associate<br>
           Editor</h5>
         <p class="about-p">
-          Autophagy journal (SCI Impact Factor 2018: 11.10)<img src="images/up-link.png">
+          Autophagy journal (SCI Impact Factor 2018: 11.10)<img src="{{url('/img/frontend/user/up-link.png')}}">
         </p>
       </div>
     </div> 
@@ -606,81 +558,5 @@
   }
   </script>
 </section>
-<body>
-</body>
-<footer id="footer" class="mt-5">
-  <section id="footer-content" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <a id="footer-logo" href="{{ url('/') }}" title="yztd">
-              <img src="images/logo.png">
-          </a>
-          <div class="row">
-            <ul class="social-links">  
-              <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com//" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-          </div>
-          <div class="col"></div>
-          <div class="col pt-4">
-            <ul class="ligray">
-              <li>
-                <a href="#!">Biography</a>
-              </li>
-              <li>
-                <a href="#!">Publications</a>
-              </li>
-              <li>
-                <a href="#!">News</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col pt-4"> 
-            <ul class="ligray">
-              <li>
-                <a href="#!">Biography</a>
-              </li>
-              <li>
-                <a href="#!">Publications</a>
-              </li>
-              <li>
-                <a href="#!">News</a>
-              </li>
-          </ul>
-        </div>
-        <div class="col pt-4">
-          <ul>
-            <li>Contact</li>
-          </ul>
-        </div>
-          <div class="col"></div>
-          
-          <div class="col-md-4">
-            <div class="footer-right">
-                <h6 class="genpri">Address</h6>
-                <p class="footer-desc">
-                    Koç University School of Medicine <br>
-                    Department of Medical Biology<br>
-                    KUTTAM Research Center for Translational Medicine<br>
-                    Koç University Hospital<br>
-                    Zeytinburnu 34010, Istanbul, TURKEY
-                </p>
-                <p>
-                    <h6 class="genpri">Contact</h6>
-                    <a href="tel:+90 212 467 87 00" class="footer-desc">+90 212 467 87 00</a>
-                </p>
-            </div>
-        </div>
-      </div>
-         
-      </div> 
-      
-  </section>
-</footer>
 
-</html>
+@include('frontend.layouts.footer ')

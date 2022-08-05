@@ -13,7 +13,7 @@ use App\Models\Publications;
             <h1 class="title pt-4">Publication Full List</h1>
         </div>
     </div>
-    <div class="row d-flex justify-content-center mt-70 mb-70">
+    <div class="row d-flex justify-content-center mt-70 mb-70 w-100">
         <div class="col-md-8">
             <div class="main-card mb-3 card">
                 <div class="card-body">

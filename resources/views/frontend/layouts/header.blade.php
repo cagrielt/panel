@@ -23,25 +23,25 @@
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-linkk" href="biography.html">Biography</a>
+            <a class="nav-linkk" href="biography">Biography</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="publications.html">Publications</a>
+            <a class="nav-linkk" href="publications">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="news.html">News</a>
+            <a class="nav-linkk" href="news">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="intived.html">Invited Talks</a>
+            <a class="nav-linkk" href="intived">Invited Talks</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="team.html">Team</a>
+            <a class="nav-linkk" href="team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="gallery.html">Gallery</a>
+            <a class="nav-linkk" href="gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="contact.html">Contact</a>
+            <a class="nav-linkk" href="contact">Contact</a>
           </li>
         </ul>
       </div>
