@@ -121,6 +121,7 @@ return [
                 'main' => 'Blog Publications List',
                 'view' => 'View Publications List',
             ],
+            
 
             'email-templates' => [
                 'all' => 'All Email Templates',

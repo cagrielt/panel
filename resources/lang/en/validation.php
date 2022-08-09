@@ -214,7 +214,7 @@ return [
                     'description' => 'Description',
                     'status' => 'Status',
                 ],
-
+             
 
                 'email-templates' => [
                     'title' => 'Email Template Title',
