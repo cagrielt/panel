@@ -3,7 +3,7 @@
 <body>
   <div class="container">
     <div class="row col-md-12">
-      <h1 class="team-title pt-3">Team</h1>
+      <h1 class="title pt-3">Team</h1>
       <span class="desc">
         Our team comprises dedicated and self-motivated experts and students from high-ranked colleges with different backgrounds including Molecular Biology, Genetics, Biotechnology, and Medicine. 
 
