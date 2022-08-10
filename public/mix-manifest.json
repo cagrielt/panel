@@ -1,8 +1,8 @@
 {
-    "/js/backend.js": "/js/backend.js",
-    "/js/frontend.js": "/js/frontend.js",
-    "/css/frontend.css": "/css/frontend.css",
-    "/css/backend.css": "/css/backend.css",
-    "/js/manifest.js": "/js/manifest.js",
-    "/js/vendor.js": "/js/vendor.js"
+    "/js/backend.js": "public/js/backend.js",
+    "/js/frontend.js": "public/js/frontend.js",
+    "/css/frontend.css": "public/css/frontend.css",
+    "/css/backend.css": "public/css/backend.css",
+    "/js/manifest.js": "public/js/manifest.js",
+    "/js/vendor.js": "public/js/vendor.js"
 }
