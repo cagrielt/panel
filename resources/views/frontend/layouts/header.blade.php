@@ -32,7 +32,7 @@
             <a class="nav-linkk" href="news">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linkk" href="intived">Invited Talks</a>
+            <a class="nav-linkk" href="intived-talks">Invited Talks</a>
           </li>
           <li class="nav-item">
             <a class="nav-linkk" href="team">Team</a>
